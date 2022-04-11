@@ -1,0 +1,164 @@
+body {
+display: flex-block;
+width: 100%;
+height: auto;
+background-color: rgb(70, 70, 70);
+}
+
+h1 {
+padding:10px;
+
+text-align:center; 
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px; 
+font-weight: 3000;
+color: whitesmoke;
+}
+
+h2 {
+padding:10px;
+/* margin: 0px, 20px, 0px, 20px; */
+text-align:center;    
+
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px; 
+font-weight: 1200;
+color: whitesmoke;
+}
+
+#headers {
+display: block;
+justify-content: relative;
+/* position:center; */
+width:100%;
+min-width: 300px;
+margin-left:10px;
+margin-right:10px;
+width: 100vw;
+padding:5px;
+margin:5px;
+    
+border:2.5px;
+/* border-style: dotted; */
+border-top-style:dotted;
+border-bottom-style:dotted;
+color:rgb(116, 113, 113); 
+}
+
+p {
+font: 30px;  
+color:rgb(221, 220, 213);
+padding:10px;
+width: 90vw;
+text-align:center;
+font-family:monospace;
+}
+
+#intropara {
+width: 100vw;
+height: auto;
+margin: 10px;
+
+border:2.5px;
+/* border-style: dotted; */
+/* border-top-style:dotted; */
+border-bottom-style:dotted;
+color:rgb(116, 113, 113);   
+}
+
+.butt {
+display:absolute;
+justify-content: center, space-between;
+
+width: 80px;
+height: 15px;
+margin: 10px;
+padding: 5px;
+
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+
+border: 2.5px;
+border-style:solid;
+border-radius: 15px; 
+border-color: rgb(97, 45, 36);
+background-color:rgb(224, 143, 129) ;
+}
+
+.butt:hover {
+cursor: pointer;
+box-shadow: 2px 2px 5px 5px #362e2e;
+}
+
+
+#buttonsection {
+width: 100vw;
+height: auto;
+display: inline-flex;
+
+flex-wrap: wrap;
+/* margin: 5px; */
+justify-content: center;
+
+border:10px;
+border-color:solid;
+/* border-style: bold; */
+border-color:black;
+}
+
+#photosection {
+display: block;
+flex-direction:row;
+/* flex-wrap: */
+justify-content: center;
+}
+
+.photosub {
+display: inline-flex;
+width: 100%;
+min-width:300px;
+
+position:center;
+/* flex-direction:row; */
+/* flex-wrap: */
+justify-content:space-evenly;
+}
+
+.photos {
+width: 32%;
+padding: 2px; 
+}
+
+#landscape {
+    width: 85%;
+    height: auto;
+    position: center;
+    padding: 2px
+    }
+
+.caption {
+font-family:cursive;
+}
+
+/* #footer {
+/* display: inline; */
+/* position: -webkit-sticky; /* Safari */
+/* position: sticky;
+top: 0;
+width: 20vw;
+height: auto;
+background-color: tomato;
+}
+
+#logo {
+    width: 5vw;
+    height: auto;
+    display: inline;
+
+    justify-content: center; */
+    /* border:2.5px;
+    border-style: solid; */
+    /* background-color: green; */
+/* } */
